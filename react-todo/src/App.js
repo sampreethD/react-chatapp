@@ -28,7 +28,6 @@ function App() {
               id: docId,
               user:docUser
             };
-            console.log(chatObj)
             return chatObj;
           })
         );

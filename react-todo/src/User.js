@@ -17,7 +17,7 @@ function Username() {
     <>
       <form>
         <FormControl style={{ width: "65%" }}>
-          <InputLabel></InputLabel>
+          <InputLabel>Enter Username to join chat</InputLabel>
           <OutlinedInput
             variant="outlined"
             value={input}

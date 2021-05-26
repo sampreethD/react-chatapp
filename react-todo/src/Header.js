@@ -6,9 +6,10 @@ function Header() {
   return (
     <div style={{ display: "flex" }}>
       <h1 className="header">React chat App 🚀</h1>
+      {localStorage.getItem('username') &&
       <span onClick={logout} style={{ cursor: "pointer" }} className="logout">
         logout
-      </span>
+      </span>}
     </div>
   );
 }
